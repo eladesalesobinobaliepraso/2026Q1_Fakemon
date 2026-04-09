@@ -3,7 +3,7 @@
   "name": "Hornet",
   "createdBy": "Brandon Moore",
   "emoji": "",
-  "type": "fighting",
+  "type": "normal",
 
   "hp": 90,
   "power": 100,
@@ -21,7 +21,7 @@
       "desc": "a nail. thats it.",
       "speed": "fast",
       "damage": [20, 25],
-      "status": "",
+      "status": null,
       "statusChance": 0
     },
 

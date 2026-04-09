@@ -21,7 +21,7 @@
       "desc": "a fish slapping someone.",
       "speed": "medium",
       "damage": [7,10],
-      "status": "",
+      "status": null,
       "statusChance": 0
     },
 
