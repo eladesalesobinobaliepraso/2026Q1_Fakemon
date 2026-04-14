@@ -1,84 +1,95 @@
 {
-  "id": "Vulkong",
-  "name": "Vulkong",
-  "createdBy": "RUBEN ESTRADA",
-  "emoji": "🌋",
-  "type": "Fire",
-  "hp": 88,
-  "color": "#D85A30",
-  "description": "he is a heavy hitter that has volcanic elements with a lot of defense.",
-  "moves": [
-    {
-      "id": "ember_bite",
-      "name": "🔥 Ember Bite",
-      "desc": "A scorching bite. May burn.",
-      "speed": "fast",
-      "damage": [14, 20],
-      "status": "burn",
-      "statusChance": 0.35
-    },
-    {
-       "id":           "move_three",
-      "name":         "💊 Recover",
-      "desc":         "Restores 25 HP.",
-      "speed":        "fast",
-      "damage": [-50, -50],
-      "status":       null,
-      "statusChance": 0
-    },
-    {
-      "id": "fox_fire",
-      "name": "😵 Fox Fire",
-      "desc": "Ghostly flame confuses the enemy.",
-      "speed": "fast",
-      "damage": [0, 0],
-      "status": "confuse",
-      "statusChance": 1.0
-    },
-    {
-      "id": "feral_focus",
-      "name": "📈 Feral Focus",
-      "desc": "Narrows eyes and locks in — ATK rises.",
-      "speed": "fast",
-      "damage": [0, 0],
-      "status": "statup",
-      "statusChance": 1.0
-    },
-    {
-      "id": "tail_venom",
-      "name": "💉 Tail Venom",
-      "desc": "Whips a venomous tail tip. May poison.",
-      "speed": "medium",
-      "damage": [10, 14],
-      "status": "poison",
-      "statusChance": 0.6
-    },
-    {
-      "id": "smoke_shroud",
-      "name": "🌫️ Smoke Shroud",
-      "desc": "Vanishes in smoke, lowering enemy ATK.",
-      "speed": "fast",
-      "damage": [0, 0],
-      "status": "statdwn",
-      "statusChance": 1.0
-    },
-    {
-      "id": "ember_lull",
-      "name": "💤 Ember Lull",
-      "desc": "Warm embers drift across — enemy may fall asleep.",
-      "speed": "slow",
-      "damage": [0, 0],
-      "status": "sleep",
-      "statusChance": 0.8
-    },
-    {
-      "id": "shock_pounce",
-      "name": "⚡ Shock Pounce",
-      "desc": "Static-charged leap. May paralyze on landing.",
-      "speed": "fast",
-      "damage": [0, 0],
-      "status": "paralyze",
-      "statusChance": 1.0
-    }
-  ]
+ "id": "volkong",
+ "name": "Volkong",
+ "createdBy": "Ruben",
+ "emoji": "🌋",
+ "type": "Magma/posion",
+ "hp": 1200,
+ "atk": 130,
+ "speed": 80,
+ "defense": 15,
+ "accuracy": 91,
+ "color": "#BA7517",
+ "description": "A volcanic gorila that has a litte posion.",
+ "moves": [
+   {
+      "id":           "move_one",
+     "name":         "💊 Recover",
+     "desc":         "Restores 25 HP.",
+     "speed":        "slow",
+     "damage": [-25, -25],
+     "status":       null,
+     "statusChance": 0
+   },
+   {
+       "id":           "magma strike",
+     "name":         "🌋 Move One",
+     "desc":         "A straightforward attackthat burns.",
+     "speed":        "medium",
+     "damage": [30, 22],
+     "status":       null,
+     "statusChance": 0
+   },
+   {
+     "id": "charge_up",
+     "name": "📈 Charge Up",
+     "desc": "Stores magma, sharply raising ATK.",
+     "speed": "slow",
+     "damage": [0, 0],
+     "status": "statup",
+     "statusChance": 1.0,
+     "statTarget": "atk"
+   },
+   {
+     "id": "heal",
+     "name": "💊 Heal",
+     "desc": "Channels stored energy into self-repair.",
+     "speed": "slow",
+     "damage": [-50, -50],
+     "status": null,
+     "statusChance": 0
+   },
+   {
+     "id": "posion barrage",
+     "name": "🟣 posion barrage",
+     "desc": "Overwhelming posion hits stuns them.",
+     "speed": "fast",
+     "damage": [20, 40],
+     "status": "paralyze",
+     "statusChance": 1.0
+   },
+   {
+     "id": "magma_stomp",
+     "name": "🌩️ Thunder Stomp",
+     "desc": "A ground-shaking stomp with burning magma. May paralyze.",
+     "speed": "slow",
+     "damage": [20, 26],
+     "status": "paralyze",
+     "statusChance": 0.3
+   },
+   {
+     "id": "domain expansion",
+     "name": "🌋 Burning hell",
+     "desc": "makes a domain where all burns last for 1 turn.",
+     "speed": "fast",
+     "damage": [200, 700],
+     "status": "burn",
+     "statusChance": 1.0,
+     "statTarget": "speed"
+   },
+   {
+     "id": "iron_wall",
+     "name": "🛡️ Iron Wall",
+     "desc": "Magnetizes hide to deflect blows. Lowers enemy ATK.",
+     "speed": "slow",
+     "damage": [0, 0],
+     "status": "statdwn",
+     "statusChance": 1.0,
+     "statTarget": "atk"
+   }
+ ]
 }
+
+
+
+
