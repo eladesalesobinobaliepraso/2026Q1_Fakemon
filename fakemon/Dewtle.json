@@ -40,15 +40,15 @@
       "statusChance": 0
     },
     {
-      "id":           "move_four",
-      "name":         "📈 Defense Up",
-      "desc":         "Sharply raises your own DEF.",
-      "speed":        "medium",
-      "damage": [0, 0],
-      "status": "StatUp",
+  "id": "iron_skin",
+  "name": "🛡️ Iron Skin",
+  "desc": "Hardens the outer shell to take less damage.",
+  "speed": "fast",
+  "damage": [0, 0],
+  "status": "statup",
   "statusChance": 1.0,
   "statTarget": "defense"
-    }
+}
 
   ]
 }
