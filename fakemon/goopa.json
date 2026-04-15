@@ -46,7 +46,7 @@
       "speed":        "fast",
       "damage": [0, 0],
       "status":       "statup",
-      "statusChance": 500,
+      "statusChance": 0.9,
       "statTarget":   "atk"
     },
     {
@@ -66,8 +66,8 @@
       "speed": "slow",
       "damage": [41, 67],
       "statuses": [
-        { "status": "poison",  "statusChance": 1.5 },
-        { "status": "confuse", "statusChance": 1.4 }
+        { "status": "poison",  "statusChance": 0.9 },
+        { "status": "confuse", "statusChance": 0.9 }
       ]
     }
 
