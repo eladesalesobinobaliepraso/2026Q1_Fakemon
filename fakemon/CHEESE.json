@@ -19,14 +19,14 @@
       "desc":         "Shoots a ball of cheese at your opponent.",
       "speed":        "medium",
       "damage": [4,60],
-      "status":       "Flinch",
+      "status":       "flinch",
       "statusChance": 0.8
     },
     {
       "id":           "Cheese_touch",
       "name":         "🧀 Cheese touch",
       "desc":         "You just go the cheese touch!.",
-      "speed":        "Fast",
+      "speed":        "fast",
       "damage": [10, 20],
       "status":       null,
       "statusChance": 0
