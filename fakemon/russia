@@ -1,0 +1,83 @@
+{
+  "id":          "russia",
+  "name":        "Славься, славься, родина-Россия!
+Сквозь века и грозы ты прошла
+И сияет солнце над тобою
+И судьба твоя светла.
+
+Над старинным московским Кремлём
+Вьётся знамя с двуглавым орлом
+И звучат священные слова:
+«Славься, Русь – Отчизна моя!»",
+  "createdBy":   "Ethan",
+  "emoji":       "🐲",
+  "type":        "Normal",
+  "description": "Russia.",
+  "hp":       100,
+  "power":    100,
+  "speed":    90,
+  "defense":  10,
+  "accuracy": 90,
+
+  "moves": [
+    {
+      "id":           "move_one",
+      "name":         "🔥 Move One",
+      "desc":         "A straightforward attack.",
+      "speed":        "medium",
+      "damage": [15, 22],
+      "status":       null,
+      "statusChance": 0
+    },
+    {
+      "id":           "move_two",
+      "name":         "🔥 Fire Bite",
+      "desc":         "A burning bite with a 30% chance to burn.",
+      "speed":        "medium",
+      "damage": [12, 18],
+      "status":       "burn",
+      "statusChance": 0.3
+    },
+    {
+      "id":           "move_three",
+      "name":         "💊 Recover",
+      "desc":         "Restores 25 HP.",
+      "speed":        "slow",
+      "damage": [-25, -25],
+      "status":       null,
+      "statusChance": 0
+    },
+    {
+      "id":           "move_four",
+      "name":         "📈 Power Up",
+      "desc":         "Sharply raises your own ATK.",
+      "speed":        "fast",
+      "damage": [0, 0],
+      "status":       "statup",
+      "statusChance": 1.0,
+      "statTarget":   "atk"
+    },
+    {
+      "id":           "move_five",
+      "name":         "📉 Cinder Smoke",
+      "desc":         "Thick smoke clouds the enemy's vision.",
+      "speed":        "medium",
+      "damage": [0, 0],
+      "status":       "statdwn",
+      "statusChance": 1.0,
+      "statTarget":   "speed"
+    },
+    {
+      "id":    "move_six",
+      "name":  "😵 Chaos Breath",
+      "desc":  "Hits, then may poison AND confuse!",
+      "speed": "slow",
+      "damage": [10, 16],
+      "statuses": [
+        { "status": "poison",  "statusChance": 0.5 },
+        { "status": "confuse", "statusChance": 0.4 }
+      ]
+    }
+
+  ]
+}
