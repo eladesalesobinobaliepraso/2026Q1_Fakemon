@@ -28,7 +28,7 @@
       "speed":        "fast",
       "damage": [0, 0],
       "status":       "statdwn",
-      "statusChance": 0
+      "statusChance": 0.7
     }
     
 
