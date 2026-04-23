@@ -1,14 +1,14 @@
 {
   "id":          "Omni-Man",
-  "name":        "Omni-Man",
+  "name":        "Omni-Mann",
   "createdBy":   "Sean McGarry",
   "emoji":       "💪 >:(",
   "type":        "Normal",
   "description": "Mark, I made you a steak.",
   "hp":       1050,
-  "power":    100,
+  "power":    105,
   "speed":    80,
-  "defense":  20,
+  "defense":  60,
   "accuracy": 85,
 
   "moves": [
@@ -27,41 +27,40 @@
     {
   "id": "Steak",
   "name": "🥩 I made you a steak",
-  "desc": "A STEAK!?!?!?",
+  "desc": "A STEAK!?!?!? (heals a lot of HP.)",
   "speed": "slow",
   "damage": [-40, -120],
   "status": null,
   "statusChance": 0
 },
 {
-  "id": "RRRAAAAHHHHH",
-  "name": "WHERE IS OMNI-MAN (angry)",
-  "desc": "WHERE IS OMNI-MAN!!! WHERE IS HHEEE!! has an 80% chance to boost damage or defence or both",
+  "id": "Random_rage",
+  "name": "Random_rage (buffs atttak).",
+  "desc": "*Proceeds to slaughter earths superhero team and beat the hell out of his son.",
   "speed": "medium",
   "damage": [10, 40],
-  "statuses": [
-    {
-      "status": "statup",
-      "statusChance": 0.8,
-      "statTarget": "atk"
+  "status": "statup",
+  "statusChance": 1.0,
+  "statTarget": "atk"
     },
-    {
-      "status": "statup",
-      "statusChance": 0.8,
-      "statTarget": "speed"
-    }
-  ]
-},
 {
-  "id": "immortal_is_immortal",
-  "name": "🛡️ Immortal durability",
-  "desc": "buffs durability.",
+  "id": "Viltramite-skin",
+  "name": "🛡️ Viltramite-skin",
+  "desc": "Whats a 400billion dollar lazer, but a nose bleed. Buffs defence",
   "speed": "medium",
   "damage": [0, 0],
   "status": "statup",
-  "statusChance": 1.0,
+  "statusChance": 0.9,
   "statTarget": "defense"
-}
-
+},
+{
+      "id":           "Trains",
+      "name":         "Train",
+      "desc":         "Maybe this time you'll learn...",
+      "speed":        "medium",
+      "damage": [70, 120],
+      "status":       null,
+      "statusChance": 0
+    }
   ]
 }
