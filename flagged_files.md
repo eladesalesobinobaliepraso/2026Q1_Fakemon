@@ -1,8 +1,8 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-25 16:47:00  
-**Files scanned:** 100  
-**Files flagged:** 32  
+**Generated:** 2026-04-28 16:51:35  
+**Files scanned:** 101  
+**Files flagged:** 30  
 
 ---
 
@@ -27,14 +27,6 @@
 | — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "candiru.json" but id is "candiru1_1" (82% similar). Did you mean id: "candiru"?` | `` |
 | 16 | 🤬 Profanity | AUTO-SANITIZE | `piss` | `"name": "don't piss",` |
 | 36 | 😠 Bullying/Targeting | REVIEW ONLY | `weak` | `"desc": "Swims up the water Spout so it can find your weak point."` |
-
-### 🚩 `eurasianbear.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| 13 | 🗳️ Political | REVIEW ONLY | `Russia` | `"description": "Born in Russia Raised by Russia Lives for Russia",` |
 
 ### 🚩 `hi.json`
 
@@ -124,14 +116,6 @@
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "Dylan.json" but id is "yourfakemon". The "id" field must exactly match the filename (case-sensitive).` | `` |
-
-### 🚩 `Gorgrigralla.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Case mismatch — filename is "Gorgrigralla.json" but id is "gorgrigralla". Did you mean id: "Gorgrigralla"?  (IDs are case-sensitive)` | `` |
 
 ### 🚩 `Marlow_1.json`
 
