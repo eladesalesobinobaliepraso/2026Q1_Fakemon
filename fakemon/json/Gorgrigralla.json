@@ -58,7 +58,7 @@
     {
       "id": "move_four",
       "name": "😵 Radioactive Nanab Berry",
-      "desc": "Throws a Nanab Berry",
+      "desc": "Throws a Banana Berry",
       "speed": "medium",
       "damage": [15, 20],
       "status": "poison",
